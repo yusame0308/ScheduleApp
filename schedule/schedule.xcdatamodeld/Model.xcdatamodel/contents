@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Memo" representedClassName="Memo" syncable="YES" codeGenerationType="class">
+        <attribute name="order" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="text" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+    </entity>
+    <entity name="Plan" representedClassName=".Plan" syncable="YES" codeGenerationType="class">
+        <attribute name="color" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="endDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notification" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="notificationDay" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="notificationHour" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="notificationMinute" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="notificationTime" optional="YES" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="onlyDay" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="order" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="startDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" attributeType="String"/>
+    </entity>
+    <entity name="Todo" representedClassName="Todo" syncable="YES" codeGenerationType="class">
+        <attribute name="finished" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="hasLimit" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="hasNotification" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="limit" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="notificationDay" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="notificationHour" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="notificationMinute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="order" attributeType="Integer 16" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Memo" positionX="-63" positionY="90" width="128" height="88"/>
+        <element name="Plan" positionX="-63" positionY="-18" width="128" height="208"/>
+        <element name="Todo" positionX="-63" positionY="54" width="128" height="178"/>
+    </elements>
+</model>
